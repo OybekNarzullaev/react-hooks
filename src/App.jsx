@@ -11,7 +11,10 @@ import MainUseReducer from "./Components/useReducer_useContext/Main";
 
 // useCallback
 import MainUseCallback from "./Components/useCallback/Main";
+import Main from "./Components/useReducer_useContext/Main";
 
+// useMemo
+import MainUseMemo from "./Components/useMemo/Main";
 const App = () => {
   return (
     <div className="main">
@@ -27,7 +30,10 @@ const App = () => {
       {/* <Main /> */}
 
       {/* ----- useCallback ----- */}
-      <MainUseCallback />
+      {/* <MainUseCallback /> */}
+
+      {/* ----- useMemo ----- */}
+      <MainUseMemo />
     </div>
   );
 };
