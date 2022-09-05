@@ -15,6 +15,10 @@ import Main from "./Components/useReducer_useContext/Main";
 
 // useMemo
 import MainUseMemo from "./Components/useMemo/Main";
+
+// useTransition
+import MainUseTransition from "./Components/use_transition/Main";
+
 const App = () => {
   return (
     <div className="main">
@@ -33,7 +37,10 @@ const App = () => {
       {/* <MainUseCallback /> */}
 
       {/* ----- useMemo ----- */}
-      <MainUseMemo />
+      {/* <MainUseMemo /> */}
+
+      {/* ----- useTransition ----- */}
+      <MainUseTransition />
     </div>
   );
 };
